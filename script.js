@@ -1,9 +1,6 @@
 // Container creation
-const body = document.querySelector('body');
-const div = document.createElement('div');
-body.appendChild(div);
-const container = document.querySelector('div');
-container.id = 'container'
+const container = document.querySelector('#container');
+
 
 // 16x16 Grid creation
 function gridCreation(side=16) {
