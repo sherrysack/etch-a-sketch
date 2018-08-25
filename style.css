@@ -1,0 +1,26 @@
+#container {
+    display: grid;
+    box-sizing: border-box;
+    justify-content: stretch;
+    height: 80vmin;
+    width: 80vmin;
+    margin: 0 auto;
+    padding: 0;
+    border: 1px solid black;
+    background: #A1A199;
+}
+
+h1 {
+    color: yellow;
+    text-align: center;
+    font-size: 25px;
+}
+
+button {
+    margin: 10px 45%;
+    display: block;
+}
+
+html {
+    backgroud-color: red;
+}
